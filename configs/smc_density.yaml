@@ -1,0 +1,17 @@
+# Particle selection only: no gradient, resample groups of 10 by density reward
+_target_: bioemu.steering.dpm_smc.dpm_solver_smc
+_partial_: true
+eps_t: 0.001
+max_t: 0.99
+N: 100
+noise: 1.0
+fk_potentials:
+  - _target_: density_bioemu.BioEmuDensityPotential
+    target_path: ???
+    weight: 30.0
+    t_on: 0.5
+steering_config:
+  num_particles: 10
+  ess_threshold: 0.5
+  start: 0.5
+  end: 0.0

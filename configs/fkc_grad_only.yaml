@@ -1,0 +1,14 @@
+# Gradient only: density gradient added to the score, no importance weights or resampling
+_target_: bioemu.steering.dpm_fkc.dpm_solver_fkc
+_partial_: true
+eps_t: 0.001
+max_t: 0.99
+N: 100
+noise: 1.0
+use_x0_for_reward: true
+fk_potentials:
+  - _target_: density_bioemu.BioEmuDensityPotential
+    target_path: ???
+    weight: 30.0
+    t_on: 0.5
+steering_config: null

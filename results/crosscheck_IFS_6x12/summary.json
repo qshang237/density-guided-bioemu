@@ -1,0 +1,254 @@
+{
+ "target_state": "IFS_6x12",
+ "threshold_A": 2.5,
+ "runs": {
+  "aimed_OFS_w3000": {
+   "n": 100,
+   "recovery_rate": 0.05,
+   "best_rmsd_to_target": 2.289929151535034,
+   "median_rmsd_to_target": 9.023346900939941,
+   "cc_target_median": 0.2004109025001526,
+   "cc_target_top10_mean": 0.26928383111953735,
+   "nearest_state_counts": {
+    "OFS_9bh2": 19,
+    "iOFS_9bh1": 41,
+    "IFS_6x12": 40
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 4.352490425109863,
+   "wall_seconds": 2617.19877409935,
+   "seconds_per_sample": 26.1719877409935,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 8.397130966186523,
+     "p_success": 0.0435
+    },
+    "2": {
+     "mean_best_rmsd": 6.0047221183776855,
+     "p_success": 0.0995
+    },
+    "5": {
+     "mean_best_rmsd": 3.38116192817688,
+     "p_success": 0.2265
+    },
+    "10": {
+     "mean_best_rmsd": 2.663473606109619,
+     "p_success": 0.393
+    },
+    "20": {
+     "mean_best_rmsd": 2.455413341522217,
+     "p_success": 0.6805
+    },
+    "50": {
+     "mean_best_rmsd": 2.3372135162353516,
+     "p_success": 0.971
+    },
+    "100": {
+     "mean_best_rmsd": 2.289928674697876,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_iOFS_w3000": {
+   "n": 100,
+   "recovery_rate": 0.03,
+   "best_rmsd_to_target": 2.098518133163452,
+   "median_rmsd_to_target": 10.111000061035156,
+   "cc_target_median": 0.20609965920448303,
+   "cc_target_top10_mean": 0.2587081789970398,
+   "nearest_state_counts": {
+    "OFS_9bh2": 11,
+    "iOFS_9bh1": 50,
+    "IFS_6x12": 39
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 4.124307632446289,
+   "wall_seconds": 2627.1537034511566,
+   "seconds_per_sample": 26.271537034511567,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 8.149046897888184,
+     "p_success": 0.0385
+    },
+    "2": {
+     "mean_best_rmsd": 5.855252742767334,
+     "p_success": 0.0645
+    },
+    "5": {
+     "mean_best_rmsd": 3.3379876613616943,
+     "p_success": 0.158
+    },
+    "10": {
+     "mean_best_rmsd": 2.6557576656341553,
+     "p_success": 0.265
+    },
+    "20": {
+     "mean_best_rmsd": 2.4552557468414307,
+     "p_success": 0.5
+    },
+    "50": {
+     "mean_best_rmsd": 2.2791850566864014,
+     "p_success": 0.8845
+    },
+    "100": {
+     "mean_best_rmsd": 2.098518133163452,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_IFS_w3000": {
+   "n": 100,
+   "recovery_rate": 0.28,
+   "best_rmsd_to_target": 1.7140177488327026,
+   "median_rmsd_to_target": 8.18859577178955,
+   "cc_target_median": 0.21552753448486328,
+   "cc_target_top10_mean": 0.3767922520637512,
+   "nearest_state_counts": {
+    "OFS_9bh2": 11,
+    "iOFS_9bh1": 50,
+    "IFS_6x12": 39
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 4.319525241851807,
+   "wall_seconds": 2637.2576212882996,
+   "seconds_per_sample": 26.372576212882997,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 7.899414539337158,
+     "p_success": 0.2775
+    },
+    "2": {
+     "mean_best_rmsd": 5.029409885406494,
+     "p_success": 0.49
+    },
+    "5": {
+     "mean_best_rmsd": 2.607635736465454,
+     "p_success": 0.818
+    },
+    "10": {
+     "mean_best_rmsd": 1.9719831943511963,
+     "p_success": 0.9735
+    },
+    "20": {
+     "mean_best_rmsd": 1.8274160623550415,
+     "p_success": 1.0
+    },
+    "50": {
+     "mean_best_rmsd": 1.7493460178375244,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 1.7140178680419922,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_iOFS_smc": {
+   "n": 200,
+   "recovery_rate": 0.03,
+   "best_rmsd_to_target": 2.0679070949554443,
+   "median_rmsd_to_target": 10.230426788330078,
+   "cc_target_median": 0.19790565967559814,
+   "cc_target_top10_mean": 0.2800646424293518,
+   "nearest_state_counts": {
+    "OFS_9bh2": 14,
+    "iOFS_9bh1": 131,
+    "IFS_6x12": 55
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 0.865,
+   "mean_pairwise_rmsd": 3.684480667114258,
+   "wall_seconds": 1864.3695950508118,
+   "seconds_per_sample": 9.321847975254059,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 9.050580024719238,
+     "p_success": 0.0305
+    },
+    "2": {
+     "mean_best_rmsd": 6.95298957824707,
+     "p_success": 0.056
+    },
+    "5": {
+     "mean_best_rmsd": 4.242061614990234,
+     "p_success": 0.1405
+    },
+    "10": {
+     "mean_best_rmsd": 2.990760326385498,
+     "p_success": 0.2855
+    },
+    "20": {
+     "mean_best_rmsd": 2.546172618865967,
+     "p_success": 0.467
+    },
+    "50": {
+     "mean_best_rmsd": 2.2910594940185547,
+     "p_success": 0.822
+    },
+    "100": {
+     "mean_best_rmsd": 2.148287057876587,
+     "p_success": 0.985
+    },
+    "200": {
+     "mean_best_rmsd": 2.0679070949554443,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_IFS_smc": {
+   "n": 200,
+   "recovery_rate": 0.33,
+   "best_rmsd_to_target": 2.0532283782958984,
+   "median_rmsd_to_target": 2.6655068397521973,
+   "cc_target_median": 0.25340908765792847,
+   "cc_target_top10_mean": 0.3193613290786743,
+   "nearest_state_counts": {
+    "OFS_9bh2": 14,
+    "iOFS_9bh1": 31,
+    "IFS_6x12": 155
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 0.885,
+   "mean_pairwise_rmsd": 3.3573484420776367,
+   "wall_seconds": 1005.6006870269775,
+   "seconds_per_sample": 5.028003435134888,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 4.829145431518555,
+     "p_success": 0.3215
+    },
+    "2": {
+     "mean_best_rmsd": 2.9186747074127197,
+     "p_success": 0.559
+    },
+    "5": {
+     "mean_best_rmsd": 2.3015265464782715,
+     "p_success": 0.869
+    },
+    "10": {
+     "mean_best_rmsd": 2.203809976577759,
+     "p_success": 0.9825
+    },
+    "20": {
+     "mean_best_rmsd": 2.1467690467834473,
+     "p_success": 0.9995
+    },
+    "50": {
+     "mean_best_rmsd": 2.0955278873443604,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 2.068164587020874,
+     "p_success": 1.0
+    },
+    "200": {
+     "mean_best_rmsd": 2.0532286167144775,
+     "p_success": 1.0
+    }
+   }
+  }
+ }
+}

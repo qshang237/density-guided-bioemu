@@ -1,0 +1,13 @@
+# sampling outputs (large; regenerable with submit_jobs.sh)
+runs/
+cache_embeds/
+logs/
+
+# working notes (Chinese, detailed lab notebook kept locally)
+PROJECT_LOG.md
+
+# Python / OS
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

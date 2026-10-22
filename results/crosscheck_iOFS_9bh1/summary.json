@@ -1,0 +1,254 @@
+{
+ "target_state": "iOFS_9bh1",
+ "threshold_A": 2.5,
+ "runs": {
+  "aimed_OFS_w3000": {
+   "n": 100,
+   "recovery_rate": 0.09,
+   "best_rmsd_to_target": 2.044534921646118,
+   "median_rmsd_to_target": 4.741020679473877,
+   "cc_target_median": 0.26157400012016296,
+   "cc_target_top10_mean": 0.31431376934051514,
+   "nearest_state_counts": {
+    "OFS_9bh2": 19,
+    "iOFS_9bh1": 41,
+    "IFS_6x12": 40
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 4.352490425109863,
+   "wall_seconds": 2617.19877409935,
+   "seconds_per_sample": 26.1719877409935,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 5.893081188201904,
+     "p_success": 0.0715
+    },
+    "2": {
+     "mean_best_rmsd": 4.138770580291748,
+     "p_success": 0.1735
+    },
+    "5": {
+     "mean_best_rmsd": 2.8976993560791016,
+     "p_success": 0.3855
+    },
+    "10": {
+     "mean_best_rmsd": 2.5054373741149902,
+     "p_success": 0.6235
+    },
+    "20": {
+     "mean_best_rmsd": 2.2796037197113037,
+     "p_success": 0.876
+    },
+    "50": {
+     "mean_best_rmsd": 2.1412596702575684,
+     "p_success": 0.9985
+    },
+    "100": {
+     "mean_best_rmsd": 2.044534921646118,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_iOFS_w3000": {
+   "n": 100,
+   "recovery_rate": 0.24,
+   "best_rmsd_to_target": 1.399930477142334,
+   "median_rmsd_to_target": 4.625425338745117,
+   "cc_target_median": 0.27339959144592285,
+   "cc_target_top10_mean": 0.413012832403183,
+   "nearest_state_counts": {
+    "OFS_9bh2": 11,
+    "iOFS_9bh1": 50,
+    "IFS_6x12": 39
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 4.124307632446289,
+   "wall_seconds": 2627.1537034511566,
+   "seconds_per_sample": 26.271537034511567,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 5.54227352142334,
+     "p_success": 0.233
+    },
+    "2": {
+     "mean_best_rmsd": 3.674316167831421,
+     "p_success": 0.43
+    },
+    "5": {
+     "mean_best_rmsd": 2.2372519969940186,
+     "p_success": 0.753
+    },
+    "10": {
+     "mean_best_rmsd": 1.7855851650238037,
+     "p_success": 0.945
+    },
+    "20": {
+     "mean_best_rmsd": 1.582576036453247,
+     "p_success": 0.9985
+    },
+    "50": {
+     "mean_best_rmsd": 1.4455920457839966,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 1.399930715560913,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_IFS_w3000": {
+   "n": 100,
+   "recovery_rate": 0.1,
+   "best_rmsd_to_target": 2.0046615600585938,
+   "median_rmsd_to_target": 4.515692710876465,
+   "cc_target_median": 0.26027292013168335,
+   "cc_target_top10_mean": 0.3292267918586731,
+   "nearest_state_counts": {
+    "OFS_9bh2": 11,
+    "iOFS_9bh1": 50,
+    "IFS_6x12": 39
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 4.319525241851807,
+   "wall_seconds": 2637.2576212882996,
+   "seconds_per_sample": 26.372576212882997,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 5.999739170074463,
+     "p_success": 0.1
+    },
+    "2": {
+     "mean_best_rmsd": 4.225836753845215,
+     "p_success": 0.1815
+    },
+    "5": {
+     "mean_best_rmsd": 2.8108861446380615,
+     "p_success": 0.402
+    },
+    "10": {
+     "mean_best_rmsd": 2.398310899734497,
+     "p_success": 0.668
+    },
+    "20": {
+     "mean_best_rmsd": 2.1866118907928467,
+     "p_success": 0.901
+    },
+    "50": {
+     "mean_best_rmsd": 2.049992561340332,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 2.0046615600585938,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_iOFS_smc": {
+   "n": 200,
+   "recovery_rate": 0.41,
+   "best_rmsd_to_target": 1.6015549898147583,
+   "median_rmsd_to_target": 2.9207303524017334,
+   "cc_target_median": 0.2856132388114929,
+   "cc_target_top10_mean": 0.39129963517189026,
+   "nearest_state_counts": {
+    "OFS_9bh2": 14,
+    "iOFS_9bh1": 131,
+    "IFS_6x12": 55
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 0.865,
+   "mean_pairwise_rmsd": 3.684480667114258,
+   "wall_seconds": 1864.3695950508118,
+   "seconds_per_sample": 9.321847975254059,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 4.4298624992370605,
+     "p_success": 0.405
+    },
+    "2": {
+     "mean_best_rmsd": 2.8837831020355225,
+     "p_success": 0.6445
+    },
+    "5": {
+     "mean_best_rmsd": 1.934322714805603,
+     "p_success": 0.9335
+    },
+    "10": {
+     "mean_best_rmsd": 1.7583250999450684,
+     "p_success": 0.994
+    },
+    "20": {
+     "mean_best_rmsd": 1.679651141166687,
+     "p_success": 1.0
+    },
+    "50": {
+     "mean_best_rmsd": 1.634389877319336,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 1.617051124572754,
+     "p_success": 1.0
+    },
+    "200": {
+     "mean_best_rmsd": 1.6015549898147583,
+     "p_success": 1.0
+    }
+   }
+  },
+  "aimed_IFS_smc": {
+   "n": 200,
+   "recovery_rate": 0.045,
+   "best_rmsd_to_target": 1.938515067100525,
+   "median_rmsd_to_target": 9.732109069824219,
+   "cc_target_median": 0.2505642771720886,
+   "cc_target_top10_mean": 0.3187396824359894,
+   "nearest_state_counts": {
+    "OFS_9bh2": 14,
+    "iOFS_9bh1": 31,
+    "IFS_6x12": 155
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 0.885,
+   "mean_pairwise_rmsd": 3.3573484420776367,
+   "wall_seconds": 1005.6006870269775,
+   "seconds_per_sample": 5.028003435134888,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 8.324305534362793,
+     "p_success": 0.047
+    },
+    "2": {
+     "mean_best_rmsd": 7.0772528648376465,
+     "p_success": 0.0865
+    },
+    "5": {
+     "mean_best_rmsd": 4.82565975189209,
+     "p_success": 0.1935
+    },
+    "10": {
+     "mean_best_rmsd": 3.414883852005005,
+     "p_success": 0.378
+    },
+    "20": {
+     "mean_best_rmsd": 2.5111801624298096,
+     "p_success": 0.6435
+    },
+    "50": {
+     "mean_best_rmsd": 2.093738555908203,
+     "p_success": 0.931
+    },
+    "100": {
+     "mean_best_rmsd": 1.9847689867019653,
+     "p_success": 0.997
+    },
+    "200": {
+     "mean_best_rmsd": 1.9385149478912354,
+     "p_success": 1.0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "target_state": "d2_9jdr",
+ "threshold_A": 2.5,
+ "runs": {
+  "original_v1.1": {
+   "n": 390,
+   "recovery_rate": 0.8923076923076924,
+   "recovery_rate_1.5A": 0.0,
+   "nearest_is_target_fraction": 1.0,
+   "best_rmsd_to_target": 1.9173078536987305,
+   "median_rmsd_to_target": 2.327742099761963,
+   "cc_target_median": 0.31212562322616577,
+   "cc_target_top10_mean": 0.34690940380096436,
+   "nearest_state_counts": {
+    "d1_9ute": 0,
+    "d2_9jdr": 390
+   },
+   "valid_fraction": 0.9128205128205128,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 11.060864448547363,
+   "wall_seconds": null,
+   "seconds_per_sample": null,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 2.3358936309814453,
+     "p_success": 0.8865
+    },
+    "2": {
+     "mean_best_rmsd": 2.248140811920166,
+     "p_success": 0.9875
+    },
+    "5": {
+     "mean_best_rmsd": 2.16351056098938,
+     "p_success": 1.0
+    },
+    "10": {
+     "mean_best_rmsd": 2.114060878753662,
+     "p_success": 1.0
+    },
+    "20": {
+     "mean_best_rmsd": 2.063722610473633,
+     "p_success": 1.0
+    },
+    "50": {
+     "mean_best_rmsd": 2.01273512840271,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 1.9760541915893555,
+     "p_success": 1.0
+    },
+    "200": {
+     "mean_best_rmsd": 1.941207766532898,
+     "p_success": 1.0
+    }
+   }
+  },
+  "base_fkc": {
+   "n": 200,
+   "recovery_rate": 0.75,
+   "recovery_rate_1.5A": 0.0,
+   "nearest_is_target_fraction": 1.0,
+   "best_rmsd_to_target": 2.048173189163208,
+   "median_rmsd_to_target": 2.421314239501953,
+   "cc_target_median": 0.2912549674510956,
+   "cc_target_top10_mean": 0.31954509019851685,
+   "nearest_state_counts": {
+    "d1_9ute": 0,
+    "d2_9jdr": 200
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 13.264680862426758,
+   "wall_seconds": 4157.655721902847,
+   "seconds_per_sample": 20.788278609514236,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 2.4570376873016357,
+     "p_success": 0.736
+    },
+    "2": {
+     "mean_best_rmsd": 2.335299491882324,
+     "p_success": 0.9385
+    },
+    "5": {
+     "mean_best_rmsd": 2.2453575134277344,
+     "p_success": 0.9995
+    },
+    "10": {
+     "mean_best_rmsd": 2.1916615962982178,
+     "p_success": 1.0
+    },
+    "20": {
+     "mean_best_rmsd": 2.145195722579956,
+     "p_success": 1.0
+    },
+    "50": {
+     "mean_best_rmsd": 2.0942060947418213,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 2.0692007541656494,
+     "p_success": 1.0
+    },
+    "200": {
+     "mean_best_rmsd": 2.048173427581787,
+     "p_success": 1.0
+    }
+   }
+  },
+  "base_smc": {
+   "n": 200,
+   "recovery_rate": 0.75,
+   "recovery_rate_1.5A": 0.0,
+   "nearest_is_target_fraction": 1.0,
+   "best_rmsd_to_target": 2.048173189163208,
+   "median_rmsd_to_target": 2.421314239501953,
+   "cc_target_median": 0.2912549674510956,
+   "cc_target_top10_mean": 0.31954509019851685,
+   "nearest_state_counts": {
+    "d1_9ute": 0,
+    "d2_9jdr": 200
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 12.398529052734375,
+   "wall_seconds": 2550.207612991333,
+   "seconds_per_sample": 12.751038064956665,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 2.4714245796203613,
+     "p_success": 0.7515
+    },
+    "2": {
+     "mean_best_rmsd": 2.3332161903381348,
+     "p_success": 0.9435
+    },
+    "5": {
+     "mean_best_rmsd": 2.2477073669433594,
+     "p_success": 1.0
+    },
+    "10": {
+     "mean_best_rmsd": 2.1882357597351074,
+     "p_success": 1.0
+    },
+    "20": {
+     "mean_best_rmsd": 2.1442196369171143,
+     "p_success": 1.0
+    },
+    "50": {
+     "mean_best_rmsd": 2.0938880443573,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 2.0690653324127197,
+     "p_success": 1.0
+    },
+    "200": {
+     "mean_best_rmsd": 2.048173427581787,
+     "p_success": 1.0
+    }
+   }
+  },
+  "fkc_grad_only_w3000": {
+   "n": 100,
+   "recovery_rate": 0.96,
+   "recovery_rate_1.5A": 0.0,
+   "nearest_is_target_fraction": 1.0,
+   "best_rmsd_to_target": 2.037142038345337,
+   "median_rmsd_to_target": 2.291365146636963,
+   "cc_target_median": 0.31642353534698486,
+   "cc_target_top10_mean": 0.34264716506004333,
+   "nearest_state_counts": {
+    "d1_9ute": 0,
+    "d2_9jdr": 100
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 1.0,
+   "mean_pairwise_rmsd": 12.977317810058594,
+   "wall_seconds": 3403.393450975418,
+   "seconds_per_sample": 34.03393450975418,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 2.292304039001465,
+     "p_success": 0.953
+    },
+    "2": {
+     "mean_best_rmsd": 2.2191624641418457,
+     "p_success": 1.0
+    },
+    "5": {
+     "mean_best_rmsd": 2.1538524627685547,
+     "p_success": 1.0
+    },
+    "10": {
+     "mean_best_rmsd": 2.1141273975372314,
+     "p_success": 1.0
+    },
+    "20": {
+     "mean_best_rmsd": 2.083836555480957,
+     "p_success": 1.0
+    },
+    "50": {
+     "mean_best_rmsd": 2.0498151779174805,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 2.037142038345337,
+     "p_success": 1.0
+    }
+   }
+  },
+  "smc_density_w30": {
+   "n": 200,
+   "recovery_rate": 0.86,
+   "recovery_rate_1.5A": 0.0,
+   "nearest_is_target_fraction": 1.0,
+   "best_rmsd_to_target": 2.048173189163208,
+   "median_rmsd_to_target": 2.3817009925842285,
+   "cc_target_median": 0.29666072130203247,
+   "cc_target_top10_mean": 0.3260137140750885,
+   "nearest_state_counts": {
+    "d1_9ute": 0,
+    "d2_9jdr": 200
+   },
+   "valid_fraction": 0.0,
+   "unique_fraction": 0.865,
+   "mean_pairwise_rmsd": 13.169085502624512,
+   "wall_seconds": 2542.021595954895,
+   "seconds_per_sample": 12.710107979774476,
+   "best_of_k": {
+    "1": {
+     "mean_best_rmsd": 2.437971591949463,
+     "p_success": 0.852
+    },
+    "2": {
+     "mean_best_rmsd": 2.2826144695281982,
+     "p_success": 0.9825
+    },
+    "5": {
+     "mean_best_rmsd": 2.2042741775512695,
+     "p_success": 1.0
+    },
+    "10": {
+     "mean_best_rmsd": 2.154284954071045,
+     "p_success": 1.0
+    },
+    "20": {
+     "mean_best_rmsd": 2.1156208515167236,
+     "p_success": 1.0
+    },
+    "50": {
+     "mean_best_rmsd": 2.076678514480591,
+     "p_success": 1.0
+    },
+    "100": {
+     "mean_best_rmsd": 2.05759859085083,
+     "p_success": 1.0
+    },
+    "200": {
+     "mean_best_rmsd": 2.048173427581787,
+     "p_success": 1.0
+    }
+   }
+  }
+ }
+}

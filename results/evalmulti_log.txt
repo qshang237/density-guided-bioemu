@@ -1,0 +1,48 @@
+=== SLC37A4 target grpA_21nq
+original_v1.1: n= 490 recovery=0.004 best=2.08A median=9.52A ccTop10=0.294 valid=0.97 unique=1.00 div=6.19A nearest={'grpA_21nq': 60, 'grpB_9ugu': 126, 'grpA_9kuy': 73, 'grpB_9ugx': 231}
+  base_fkc: n= 200 recovery=0.005 best=2.10A median=9.54A ccTop10=0.289 valid=0.00 unique=1.00 div=9.05A nearest={'grpA_21nq': 31, 'grpB_9ugu': 53, 'grpA_9kuy': 34, 'grpB_9ugx': 82}
+  base_smc: n= 200 recovery=0.005 best=2.10A median=9.54A ccTop10=0.289 valid=0.00 unique=1.00 div=9.28A nearest={'grpA_21nq': 31, 'grpB_9ugu': 53, 'grpA_9kuy': 34, 'grpB_9ugx': 82}
+fkc_grad_only_w3000: n= 100 recovery=0.010 best=2.06A median=9.42A ccTop10=0.292 valid=0.00 unique=1.00 div=8.61A nearest={'grpA_21nq': 16, 'grpB_9ugu': 18, 'grpA_9kuy': 23, 'grpB_9ugx': 43}
+smc_density_w30: n= 200 recovery=0.020 best=2.09A median=11.06A ccTop10=0.294 valid=0.00 unique=0.85 div=12.62A nearest={'grpA_21nq': 50, 'grpB_9ugu': 39, 'grpA_9kuy': 44, 'grpB_9ugx': 67}
+=== SLC37A4 target grpB_9ugu
+original_v1.1: n= 490 recovery=0.294 best=1.04A median=3.97A ccTop10=0.376 valid=0.97 unique=1.00 div=6.19A nearest={'grpA_21nq': 60, 'grpB_9ugu': 126, 'grpA_9kuy': 73, 'grpB_9ugx': 231}
+  base_fkc: n= 200 recovery=0.220 best=1.14A median=5.20A ccTop10=0.347 valid=0.00 unique=1.00 div=9.05A nearest={'grpA_21nq': 31, 'grpB_9ugu': 53, 'grpA_9kuy': 34, 'grpB_9ugx': 82}
+  base_smc: n= 200 recovery=0.220 best=1.14A median=5.20A ccTop10=0.347 valid=0.00 unique=1.00 div=9.28A nearest={'grpA_21nq': 31, 'grpB_9ugu': 53, 'grpA_9kuy': 34, 'grpB_9ugx': 82}
+fkc_grad_only_w3000: n= 100 recovery=0.270 best=0.95A median=5.77A ccTop10=0.390 valid=0.00 unique=1.00 div=8.30A nearest={'grpA_21nq': 18, 'grpB_9ugu': 20, 'grpA_9kuy': 18, 'grpB_9ugx': 44}
+smc_density_w30: n= 200 recovery=0.535 best=1.06A median=2.15A ccTop10=0.369 valid=0.00 unique=0.85 div=10.09A nearest={'grpA_21nq': 30, 'grpB_9ugu': 54, 'grpA_9kuy': 22, 'grpB_9ugx': 94}
+=== AuxinTransporter target d1_9ute
+original_v1.1: n= 390 recovery=0.000 best=2.68A median=3.20A ccTop10=0.356 valid=0.91 unique=1.00 div=11.06A nearest={'d1_9ute': 0, 'd2_9jdr': 390}
+  base_fkc: n= 200 recovery=0.000 best=2.79A median=3.26A ccTop10=0.323 valid=0.00 unique=1.00 div=13.26A nearest={'d1_9ute': 0, 'd2_9jdr': 200}
+  base_smc: n= 200 recovery=0.000 best=2.79A median=3.26A ccTop10=0.323 valid=0.00 unique=1.00 div=12.40A nearest={'d1_9ute': 0, 'd2_9jdr': 200}
+fkc_grad_only_w3000: n= 100 recovery=0.000 best=2.70A median=3.14A ccTop10=0.360 valid=0.00 unique=1.00 div=12.99A nearest={'d1_9ute': 1, 'd2_9jdr': 99}
+smc_density_w30: n= 200 recovery=0.000 best=2.79A median=3.18A ccTop10=0.332 valid=0.00 unique=0.84 div=13.30A nearest={'d1_9ute': 0, 'd2_9jdr': 200}
+=== AuxinTransporter target d2_9jdr
+original_v1.1: n= 390 recovery=0.892 best=1.92A median=2.33A ccTop10=0.347 valid=0.91 unique=1.00 div=11.06A nearest={'d1_9ute': 0, 'd2_9jdr': 390}
+  base_fkc: n= 200 recovery=0.750 best=2.05A median=2.42A ccTop10=0.320 valid=0.00 unique=1.00 div=13.26A nearest={'d1_9ute': 0, 'd2_9jdr': 200}
+  base_smc: n= 200 recovery=0.750 best=2.05A median=2.42A ccTop10=0.320 valid=0.00 unique=1.00 div=12.40A nearest={'d1_9ute': 0, 'd2_9jdr': 200}
+fkc_grad_only_w3000: n= 100 recovery=0.960 best=2.04A median=2.29A ccTop10=0.343 valid=0.00 unique=1.00 div=12.98A nearest={'d1_9ute': 0, 'd2_9jdr': 100}
+smc_density_w30: n= 200 recovery=0.860 best=2.05A median=2.38A ccTop10=0.326 valid=0.00 unique=0.86 div=13.17A nearest={'d1_9ute': 0, 'd2_9jdr': 200}
+=== SPNS2 target s1_8ex5
+original_v1.1: n= 462 recovery=0.141 best=1.58A median=3.38A ccTop10=0.297 valid=0.92 unique=1.00 div=5.59A nearest={'s1_8ex5': 109, 's2_8ex7': 353}
+  base_fkc: n= 200 recovery=0.160 best=1.70A median=3.47A ccTop10=0.277 valid=0.00 unique=1.00 div=8.31A nearest={'s1_8ex5': 75, 's2_8ex7': 125}
+  base_smc: n= 200 recovery=0.160 best=1.70A median=3.47A ccTop10=0.277 valid=0.00 unique=1.00 div=6.40A nearest={'s1_8ex5': 75, 's2_8ex7': 125}
+fkc_grad_only_w3000: n= 100 recovery=0.270 best=1.51A median=3.29A ccTop10=0.314 valid=0.00 unique=1.00 div=8.98A nearest={'s1_8ex5': 32, 's2_8ex7': 68}
+smc_density_w30: n= 200 recovery=0.695 best=1.65A median=2.22A ccTop10=0.299 valid=0.00 unique=0.81 div=2.47A nearest={'s1_8ex5': 38, 's2_8ex7': 162}
+=== SPNS2 target s2_8ex7
+original_v1.1: n= 462 recovery=0.249 best=1.45A median=2.96A ccTop10=0.383 valid=0.92 unique=1.00 div=5.59A nearest={'s1_8ex5': 109, 's2_8ex7': 353}
+  base_fkc: n= 200 recovery=0.230 best=1.47A median=3.17A ccTop10=0.359 valid=0.00 unique=1.00 div=8.31A nearest={'s1_8ex5': 75, 's2_8ex7': 125}
+  base_smc: n= 200 recovery=0.230 best=1.47A median=3.17A ccTop10=0.359 valid=0.00 unique=1.00 div=6.40A nearest={'s1_8ex5': 75, 's2_8ex7': 125}
+fkc_grad_only_w3000: n= 100 recovery=0.430 best=1.42A median=2.68A ccTop10=0.393 valid=0.00 unique=1.00 div=8.82A nearest={'s1_8ex5': 28, 's2_8ex7': 72}
+smc_density_w30: n= 200 recovery=0.810 best=1.45A median=1.81A ccTop10=0.387 valid=0.00 unique=0.81 div=2.32A nearest={'s1_8ex5': 15, 's2_8ex7': 185}
+=== GPR4 target pHa_8zfd
+original_v1.1: n= 335 recovery=0.785 best=1.50A median=1.95A ccTop10=0.310 valid=0.97 unique=1.00 div=16.87A nearest={'pHa_8zfd': 318, 'pHb_9jvh': 17}
+  base_fkc: n= 200 recovery=0.695 best=1.59A median=2.18A ccTop10=0.292 valid=0.00 unique=1.00 div=19.85A nearest={'pHa_8zfd': 182, 'pHb_9jvh': 18}
+  base_smc: n= 200 recovery=0.695 best=1.59A median=2.18A ccTop10=0.292 valid=0.00 unique=1.00 div=19.10A nearest={'pHa_8zfd': 182, 'pHb_9jvh': 18}
+fkc_grad_only_w3000: n= 100 recovery=0.790 best=1.47A median=1.91A ccTop10=0.348 valid=0.00 unique=1.00 div=18.85A nearest={'pHa_8zfd': 94, 'pHb_9jvh': 6}
+smc_density_w30: n= 200 recovery=0.805 best=1.59A median=1.99A ccTop10=0.296 valid=0.00 unique=0.83 div=18.58A nearest={'pHa_8zfd': 196, 'pHb_9jvh': 4}
+=== GPR4 target pHb_9jvh
+original_v1.1: n= 335 recovery=0.761 best=1.59A median=2.07A ccTop10=0.336 valid=0.97 unique=1.00 div=16.87A nearest={'pHa_8zfd': 318, 'pHb_9jvh': 17}
+  base_fkc: n= 200 recovery=0.640 best=1.72A median=2.29A ccTop10=0.319 valid=0.00 unique=1.00 div=19.85A nearest={'pHa_8zfd': 182, 'pHb_9jvh': 18}
+  base_smc: n= 200 recovery=0.640 best=1.72A median=2.29A ccTop10=0.319 valid=0.00 unique=1.00 div=19.10A nearest={'pHa_8zfd': 182, 'pHb_9jvh': 18}
+fkc_grad_only_w3000: n= 100 recovery=0.720 best=1.55A median=2.07A ccTop10=0.371 valid=0.00 unique=1.00 div=18.57A nearest={'pHa_8zfd': 88, 'pHb_9jvh': 12}
+smc_density_w30: n= 200 recovery=0.760 best=1.72A median=2.09A ccTop10=0.326 valid=0.00 unique=0.83 div=18.45A nearest={'pHa_8zfd': 192, 'pHb_9jvh': 8}

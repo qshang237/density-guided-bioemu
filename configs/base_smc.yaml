@@ -1,0 +1,9 @@
+# Unguided reference, SMC solver (same solver and noise as the SMC condition)
+_target_: bioemu.steering.dpm_smc.dpm_solver_smc
+_partial_: true
+eps_t: 0.001
+max_t: 0.99
+N: 100
+noise: 1.0
+fk_potentials: []
+steering_config: null
