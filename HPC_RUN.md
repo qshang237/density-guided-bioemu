@@ -24,15 +24,16 @@ Each guided condition is run against each of the three GltPh maps, which differ 
 ## Steps
 
 ```bash
-# 1. copy this folder to the HPC (from the Mac)
-scp -r ~/density-guided-bioemu bty189@login.hpc.qmul.ac.uk:/data/home/bty189/
+# 1. copy this folder to the HPC
+scp -r density-guided-bioemu <user>@<login node>:<remote folder>/
 
 # 2. on the HPC
-cd /data/home/bty189/density-guided-bioemu
+cd <remote folder>/density-guided-bioemu
+export ACCOUNT=<slurm account> PARTITION=<partition>
 bash submit_jobs.sh setup      # checks bioemu steering, runs CPU tests (about 2 min)
 bash submit_jobs.sh smoke      # one short GPU job; read logs/smoke_*.out
 bash submit_jobs.sh main       # 11 jobs
-squeue -u bty189
+squeue -u $USER
 bash submit_jobs.sh eval       # after all main jobs finish
 ```
 
@@ -45,8 +46,8 @@ bash submit_jobs.sh eval       # after all main jobs finish
 ## Bring the results back
 
 ```bash
-scp -r bty189@login.hpc.qmul.ac.uk:/data/home/bty189/density-guided-bioemu/results ~/density-guided-bioemu/
-scp -r bty189@login.hpc.qmul.ac.uk:/data/home/bty189/density-guided-bioemu/logs ~/density-guided-bioemu/
+scp -r <user>@<login node>:<remote folder>/density-guided-bioemu/results density-guided-bioemu/
+scp -r <user>@<login node>:<remote folder>/density-guided-bioemu/logs density-guided-bioemu/
 ```
 
 `results/<target>/summary.json` holds recovery rate, best RMSD, best-of-k sample-efficiency curves, validity, duplicates and diversity for every condition.

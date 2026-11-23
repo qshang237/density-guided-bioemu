@@ -7,11 +7,17 @@
 #   bash submit_jobs.sh eval     # one CPU job: evaluate everything into results/
 #   bash submit_jobs.sh multi    # 24 GPU jobs: the other four proteins (SLC37A4, SPNS2, GPR4, AuxinTransporter)
 #   bash submit_jobs.sh evalmulti   # run on the login node after multi: evaluate the four proteins into results/<protein>/
+#
+# The modes that submit jobs need the SLURM account and partition in the environment:
+#   export ACCOUNT=<slurm account> PARTITION=<partition>
+# ORIGINAL_ROOT is the folder with the earlier unguided v1.1 ensembles, one sub-folder per protein
+# (default: $HOME/bioemu-run/bioemu-run-2). It is used by the eval and evalmulti modes.
 set -euo pipefail
 
 BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ORIGINAL_RUN="/data/home/bty189/bioemu-run/bioemu-run-2/GltPh"   # earlier unguided v1.1 ensemble (486 frames)
-ACCOUNT="pilot_sae_gpu"; PARTITION="sae"
+ORIGINAL_ROOT="${ORIGINAL_ROOT:-$HOME/bioemu-run/bioemu-run-2}"
+ORIGINAL_RUN="${ORIGINAL_ROOT}/GltPh"   # earlier unguided v1.1 ensemble (486 frames)
+ACCOUNT="${ACCOUNT:-}"; PARTITION="${PARTITION:-}"
 NUM_SAMPLES=200
 WEIGHT=30
 TARGETS="OFS_9bh2 iOFS_9bh1 IFS_6x12"
@@ -22,7 +28,12 @@ mamba activate bioemu
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 export PYTHONPATH='"$BASE"':${PYTHONPATH:-}'
 
+need_slurm () {  # stop before sbatch if the account or the partition is not set
+  : "${ACCOUNT:?set ACCOUNT to the SLURM account}" "${PARTITION:?set PARTITION to the SLURM partition}"
+}
+
 submit_gpu () {  # name, hours, command, [extra sbatch option]; prints the job id into LAST_JOB
+  need_slurm
   LAST_JOB=$(sbatch --parsable ${4:-} <<SLURM
 #!/bin/bash
 #SBATCH -A ${ACCOUNT}
@@ -51,7 +62,7 @@ declare -A MULTI_TARGETS=(
 # exact batch size for gradient runs (gradient memory grows with length; AUX1 has 485 residues)
 declare -A GRAD_BATCH=([SLC37A4]=5 [SPNS2]=5 [GPR4]=5 [AuxinTransporter]=4)
 
-check_multi_targets () {  # stop before submitting anything if a target file is missing (16 Oct: upload had silently failed)
+check_multi_targets () {  # stop before submitting anything if a target file is missing
   local missing=0
   for p in "${!MULTI_TARGETS[@]}"; do
     for f in targets/${p}_references.pt $(for t in ${MULTI_TARGETS[$p]}; do echo targets/${p}_${t}.pt; done); do
@@ -152,6 +163,7 @@ sweep)
   done
   ;;
 eval)
+  need_slurm
   sbatch <<SLURM
 #!/bin/bash
 #SBATCH -A ${ACCOUNT}
@@ -213,7 +225,7 @@ evalmulti)
   eval "$ENV_SETUP"
   cd "$BASE"
   for p in "${!MULTI_TARGETS[@]}"; do
-    ORIG="/data/home/bty189/bioemu-run/bioemu-run-2/${p}"
+    ORIG="${ORIGINAL_ROOT}/${p}"
     for t in ${MULTI_TARGETS[$p]}; do
       RUNS=""
       [ -f "${ORIG}/samples.xtc" ] && RUNS="--run original_v1.1=${ORIG}"

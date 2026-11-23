@@ -49,7 +49,7 @@ Recovery = Cα-RMSD < 2.5 Å to the deposited model of the target state (pose on
 | GPR4 (EMD-60057) | 0.680 | 0.700 |
 | GPR4 (EMD-61839) | 0.702 | 0.726 |
 
-Additional checks, described in the project log:
+Additional checks:
 
 * **Amplify or discover.** In SMC each batch of 10 particles is one group. Across all proteins the number of groups containing a hit is unchanged by selection (for example 16 to 17 of 20), while hits per successful group rise 2 to 4 fold: selection copies good structures, it does not find new ones.
 * **Specificity.** On SLC37A4, aiming at group B raises B and leaves A at zero; aiming at group A cannot reach A but lowers B from 22% to 15%. On GltPh, selection aimed at one state raises that state's density ratio and lowers the other two.

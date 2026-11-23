@@ -3,7 +3,7 @@ runs/
 cache_embeds/
 logs/
 
-# working notes (Chinese, detailed lab notebook kept locally)
+# local notes
 PROJECT_LOG.md
 
 # Python / OS
